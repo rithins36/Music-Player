@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="/Images/logo.png" class="logo">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SPECIFICATIONS</a></li>
+                <li><a href="#">PRODUCTS</a></li>
+                <li><a href="#">CONNECT</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="left">
+                <h1>THE <br>REAL <br>SOUND</h1>
+            </div>
+            <div class="right">
+                <p>CLICK HERE TO PLAY</p>
+                <img src="/Images/play.png" id="icon1" height="100px" width="100px">
+            </div>
+        </div>
+        <audio  id="audio">
+            <source src="/Music/Music1.mp3" type="audio/mp3">
+        </audio>
+    </div>
+    <script src="hero.js"></script>   
+</body>
+</html>
